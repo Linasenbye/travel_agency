@@ -1,0 +1,25 @@
+sa2003200319
+
+2LHSiPfdtu2EK2o5
+
+curl -X GET "http://localhost:9200" -u elastic:72owkbQ-IhPCHCz13S8O
+
+
+eyJ2ZXIiOiI4LjE0LjAiLCJhZHIiOlsiMTcyLjE5LjAuMjo5MjAwIl0sImZnciI6IjlmMDA2NWVmYjhiMDhmYTc2YmZkYWZjMmU0OTFjMDUzMWM3ZGE2MDc5NGUxYjRiN2YyYTE4NTM0MDI4MDk4NzYiLCJrZXkiOiJIb25Ub0pNQkE2QWpEeGZsbmU4ajpodVdNcFFlRFR1ZWEzekI4TE85U2hBIn0=
+
+  `docker run -e "ENROLLMENT_TOKEN=<token>" docker.elastic.co/elasticsearch/elasticsearch:8.16.1`
+
+
+      9f0065efb8b08fa76bfdafc2e491c0531c7da60794e1b4b7f2a1853402809876
+
+export ELASTIC_PASSWORD="rKNs4l8zTdlaNjV0ecgq"
+
+  Configure Kibana to use this cluster:
+• Run Kibana and click the configuration link in the terminal when Kibana starts.
+• Copy the following enrollment token and paste it into Kibana in your browser (valid for the next 30 minutes):
+  eyJ2ZXIiOiI4LjE0LjAiLCJhZHIiOlsiMTcyLjE5LjAuMjo5MjAwIl0sImZnciI6IjlmMDA2NWVmYjhiMDhmYTc2YmZkYWZjMmU0OTFjMDUzMWM3ZGE2MDc5NGUxYjRiN2YyYTE4NTM0MDI4MDk4NzYiLCJrZXkiOiJISW5Ub0pNQkE2QWpEeGZsbmU4ajp6OEJibjRjTFRoeXNIUzhZaXhWVkNnIn0=
+
+  curl --cacert http_ca.crt -u elastic:$ELASTIC_PASSWORD https://localhost:9200
+
+
+    9fdc3157969d09185a87a0a6a50ef6ba2489c00e58765afe3c5dee0baaa4ad7d
