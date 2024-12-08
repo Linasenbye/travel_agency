@@ -153,10 +153,20 @@ button {
 a {
     text-decoration: none; 
   }
-.btn .start {
-    color: black;
+.btn .back  {
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.start  {
+    color: #766F64;
     font-size: 2rem;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.start:hover {
+    color: #5E5850;
 }
 .sub-title {
     margin-top: 1.5rem;
@@ -214,7 +224,7 @@ a {
     cursor: pointer;
 }
 .category:hover {
-    color: var(--Primary, #888888);
+    color: var(--Primary, #766F64);
     font-family: "SF Pro Display";
     font-size: 24px;
     font-style: normal;
@@ -305,8 +315,9 @@ img {
 
 .tour-img {
     width: 100%;
-    height: 657px;
-    flex-shrink: 0;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .recommend-options-info .recommend-options-text {
@@ -336,11 +347,12 @@ img {
 }
 
 .chosen-tour {
-    width: 100%;
+    width: 70%;
+    border-radius: 1rem;
 }
 .tour-info {
     background-color: white;
-    top: -200px;
+    top: -100px;
     overflow: visible;
     position: relative;
     object-fit: cover;
@@ -400,11 +412,11 @@ img {
     justify-content: center;
 }
 .book {
-    background-color: rgba(106, 98, 183, 1);
+    background-color: #888888;
     color: #FFFFFF;
     text-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.25);
     font-size: 1.5rem;
-    width: 1200px;
+    width: 50rem;
     height: 64px;
     border-radius: 100px;
     padding: 10px;
@@ -445,7 +457,7 @@ img {
 
 #button {
     border-radius: 16px;
-    background: #897CFF;
+    background: #888888;
     width: 42px;
     height: 48px;
 }
@@ -454,7 +466,7 @@ img {
     height: 56px;
     margin-top: 3rem;
     border-radius: 28px;
-    background-color: #B4B0DA;
+    background-color: #888888;
     color: white;
     font-size: 1.5rem;
 }
@@ -462,7 +474,7 @@ img {
 .submit-btn:hover {
     margin-top: 3rem;
     border-radius: 28px;
-    background-color: #6A62B7;
+    background-color: #766F64;
     color: white;
     font-size: 1.5rem;
 }
