@@ -42,7 +42,7 @@
     border-radius: 0.5rem;
 }
 
-.search-btn {
+.search-btn, .add-btn {
     width: 15%;
     height: 40px;
     background-color: #888888;
@@ -162,8 +162,6 @@ a {
 .start  {
     color: #766F64;
     font-size: 2rem;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 .start:hover {
     color: #5E5850;
@@ -361,14 +359,16 @@ img {
     padding: 120px;
 }
 
-.location {
+.location, .seats {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
-
+#space {
+    padding-left: 8px;
+}
 .description {
     margin-bottom: 40px;
 }
@@ -485,4 +485,49 @@ img {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.dashboard {
+    width: 100%;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.admin_board {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin_board input, .admin_board select, .admin_board textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.tours {
+    padding: 1rem;
+}
+
+.tour_card {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#ad {
+    text-align: center;
 }
